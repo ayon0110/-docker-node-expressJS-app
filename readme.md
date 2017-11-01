@@ -8,7 +8,7 @@ In the root of the project folder run
 ```javascript
 npm install
 ```
-To Start the site run 
+To Start the site run . you can also use forever
 ```
 node . 
 ```
