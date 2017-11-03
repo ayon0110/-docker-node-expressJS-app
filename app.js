@@ -1,6 +1,6 @@
 
 // Sample node.js web app for bTreePress How-To-Use-Docker-With-Continous-Integration-To-Build-A-DevOps-Automated-Workflow
-
+// declaration
  'use strict';
 
 // Declaring function  
