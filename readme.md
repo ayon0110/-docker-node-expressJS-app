@@ -5,12 +5,13 @@ This is a quick  node.js appfor the purposes of demonstrating a basic CI/CD work
 ## Instructions for installation
 
 In the root of the project folder run 
-```javascript
+```
 npm install
 npm install --global mocha
 npm install forever -g
 npm start
 ```
+
 To Start the site run . You can also use foreverJS to run as dameon
 ```
 node . 
