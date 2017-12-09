@@ -12,7 +12,7 @@ npm install forever -g
 npm start
 ```
 
-To Start the site run . You can also use foreverJS to run as dameon
+To Start the site run . You can also use foreverJS to run as dameon to run nodejs app server in backend
 ```
 node . 
 ```
