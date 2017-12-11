@@ -5,8 +5,8 @@
   
  var express = require('express'),
      app = express();
- // making error
- app.set('views', '/views');
+
+ app.set('views', 'views');
  app.set('view engine', 'hbs');
  
  app.get('/', function(req, res) {
