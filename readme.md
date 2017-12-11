@@ -2,7 +2,7 @@
 
 This is a quick  node.js appfor the purposes of demonstrating a basic CI/CD workflow with Docker Hub for How To Use Docker With Continous Integration To Build A DevOps Automated Workflow .
 
-## Instructions for installation
+## Instructions for installation of NodeJS APplication
 
 In the root of the project folder run 
 ```
