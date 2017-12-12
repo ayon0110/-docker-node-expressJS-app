@@ -1,4 +1,4 @@
-# Node expressJS Application deployed using Continous Integration/Continous Deployment in Docker
+# Node expressJS Application deployed using Continous Integration/Continous Deployment in Docker Containers
 
 This is a quick  node.js appfor the purposes of demonstrating a basic CI/CD workflow with Docker Hub for How To Use Docker With Continous Integration To Build A DevOps Automated Workflow .
 
