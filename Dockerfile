@@ -1,19 +1,23 @@
-FROM centos:centos6
+FROM centos:centos7
 
-MAINTAINER contact@btreepress.com
+MAINTAINER contact@aditya.com
 
 # Enable EPEL for Node.js
-RUN rpm -Uvh http://download.fedoraproject.org/pub/epel/6/i386/epel-release-6-8.noarch.rpm
+RUN rpm -Uvh http://dl.fedoraproject.org/pub/epel/epel-release-latest-7.noarch.rpm
 
 # Install Node...
-RUN yum install -y npm
+RUN yum install -y git curl gcc make
+RUN yum install -y nodejs npm
 
-# Copy app to /src
-COPY . /src
+# Copy app to / /src
+RUN git clone https://github.com/aditya-/-docker-node-expressJS-app.git /src
+
 
 # Install app and dependencies into /src
 RUN cd /src; npm install
+RUN npm install --global mocha; npm install forever -g
+RUN cd /src; npm start
 
-EXPOSE 8080
+EXPOSE 8088
 
-CMD cd /src && node ./app.js
+#CMD cd /src && node ./app.js
